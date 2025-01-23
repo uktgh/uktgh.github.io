@@ -21,7 +21,7 @@ const CONFIG = {
         projects: ['arifszn/gitprofile', 'arifszn/pandora'], 
       },
     },
-    external: {
+    /*external: {
       header: 'My Projects',
       projects: [
         {
@@ -43,6 +43,7 @@ const CONFIG = {
       ],
     },
   },
+  */
   seo: {
     title: 'uktgh',
     description: '',
