@@ -21,7 +21,8 @@ const CONFIG = {
         projects: ['arifszn/gitprofile', 'arifszn/pandora'], 
       },
     },
-    /*external: {
+    /*
+    external: {
       header: 'My Projects',
       projects: [
         {
@@ -42,8 +43,8 @@ const CONFIG = {
         },
       ],
     },
+    */
   },
-  */
   seo: {
     title: 'uktgh',
     description: '',
@@ -139,7 +140,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'pastel',
+    defaultTheme: 'WireFrame',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
