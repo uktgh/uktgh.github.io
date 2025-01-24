@@ -84,7 +84,7 @@ const CONFIG = {
     'C#',
     'SQL',
     'Python',
-    'x86asm',
+    'x86_64asm',
   ],
   experiences: [
     {
