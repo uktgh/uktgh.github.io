@@ -99,7 +99,7 @@ const CONFIG = {
     {
       institution: 'I.I.S. Castelli',
       degree: 'Technical Degree',
-      from: '(in plan\n2025)',
+      from: '(in plan) 2025',
       to: '2028',
     },
     {
