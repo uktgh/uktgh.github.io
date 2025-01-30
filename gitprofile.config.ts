@@ -96,14 +96,12 @@ const CONFIG = {
     }
   ],
   educations: [
-    /*   in plan
     {
       institution: 'I.I.S. Castelli',
       degree: 'Technical Degree',
-      from: '2025',
+      from: '(in plan\n2025)',
       to: '2028',
     },
-    */
     {
       institution: 'CFP Zanardelli',
       degree: 'Professional Technical Degree',
