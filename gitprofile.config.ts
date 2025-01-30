@@ -18,7 +18,7 @@ const CONFIG = {
         },
       },
       manual: {
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], 
+        projects: [], 
       },
     },
     /*
@@ -91,18 +91,25 @@ const CONFIG = {
       company: 'DVA - DVision Architecture',
       position: 'Viale Duca D\'Aosta 28 Brescia',
       from: 'October 2024',
-      to: 'Present',
+      to: 'May 2025',
       companyLink: 'http://www.dva.vision/',
     }
   ],
-  /* educations: [
+  educations: [
+    {
+      institution: 'I.T.I.S. Benedetto Castelli',
+      degree: 'Technical Degree',
+      from: '2025',
+      to: '2028',
+    },
     {
       institution: 'CFP Zanardelli',
       degree: 'Professional Technical Degree',
-      from: '2021',
-      to: '2023',
-    },
+      from: '2022',
+      to: '2025',
+    }
   ],
+  /*
   publications: [
     {
       title: 'Publication Title',
@@ -134,26 +141,18 @@ const CONFIG = {
   },
 
   */
-  // Track visitor interaction and behavior. https://www.hotjar.com
+  
   hotjar: {
     id: '',
     snippetVersion: 6,
   },
+  
   themeConfig: {
-    defaultTheme: 'WireFrame',
-
-    // Hides the switch in the navbar
-    // Useful if you want to support a single color mode
-    disableSwitch: false,
-
-    // Should use the prefers-color-scheme media-query,
-    // using user system preferences, instead of the hardcoded defaultTheme
+    defaultTheme: 'pastel',
+    disableSwitch: true,
     respectPrefersColorScheme: false,
+    displayAvatarRing: false,
 
-    // Display the ring in Profile picture
-    displayAvatarRing: true,
-
-    // Available themes. To remove any theme, exclude from here.
     themes: [
       'light',
       'dark',
@@ -185,8 +184,7 @@ const CONFIG = {
       'nord',
       'sunset',
     ],
-
-    // Custom theme, applied to `procyon` theme
+    
     customTheme: {
       primary: '#fc055b',
       secondary: '#219aaf',
@@ -198,15 +196,6 @@ const CONFIG = {
     },
   },
 
-  /*
-  // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
- 
-  */
   enablePWA: true,
 };
 
