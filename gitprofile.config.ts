@@ -80,15 +80,13 @@ const CONFIG = {
   */
   skills: [
     'Rust',
-    'ActionScript',
-    'Haskell',
     'C',
     'C++',
     'C#',
     'SQL',
     'Python',
     '8086 asm',
-    'ARM asm'
+    'ARM asm',
     'x86_64 asm',
   ],
   experiences: [
