@@ -80,11 +80,16 @@ const CONFIG = {
   */
   skills: [
     'Rust',
-    'C/C++',
+    'ActionScript',
+    'Haskell',
+    'C',
+    'C++',
     'C#',
     'SQL',
     'Python',
-    'x86_64asm',
+    '8086 asm',
+    'ARM asm'
+    'x86_64 asm',
   ],
   experiences: [
     {
@@ -151,7 +156,7 @@ const CONFIG = {
     defaultTheme: 'pastel',
     disableSwitch: true,
     respectPrefersColorScheme: false,
-    displayAvatarRing: false,
+    displayAvatarRing: true,
 
     themes: [
       'light',
