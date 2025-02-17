@@ -14,7 +14,7 @@ const CONFIG = {
         limit: 8,
         exclude: {
           forks: true,
-          projects: [],
+          projects: ['avr.github.io'],
         },
       },
       manual: {
@@ -46,7 +46,7 @@ const CONFIG = {
     */
   },
   seo: {
-    title: 'uktgh',
+    title: 'Vittorio Dobrea',
     description: '',
     imageURL: '',
   },
@@ -86,7 +86,6 @@ const CONFIG = {
     'SQL',
     'Python',
     '8086 asm',
-    'ARM asm',
     'x86_64 asm',
   ],
   experiences: [
@@ -100,13 +99,13 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'I.I.S. Castelli',
+      institution: 'I.I.S. Benedetto Castelli',
       degree: 'Technical Degree',
       from: '(in plan) 2025',
       to: '2028',
     },
     {
-      institution: 'CFP Zanardelli',
+      institution: 'C.F.P. Zanardelli',
       degree: 'Professional Technical Degree',
       from: '2022',
       to: '2025',
