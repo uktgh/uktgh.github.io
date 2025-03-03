@@ -79,14 +79,12 @@ const CONFIG = {
   },
   */
   skills: [
-    'Rust',
-    'C',
-    'C++',
-    'C#',
-    'SQL',
-    'Python',
+    'c',
+    'c++',
+    'rust',
+    'sql',
+    'python',
     '8086 asm',
-    'x86_64 asm',
   ],
   experiences: [
     {
@@ -101,7 +99,7 @@ const CONFIG = {
     {
       institution: 'I.I.S. Benedetto Castelli',
       degree: 'Technical Degree',
-      from: '(in plan) 2025',
+      from: '2025',
       to: '2028',
     },
     {
