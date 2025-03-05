@@ -89,7 +89,7 @@ const CONFIG = {
       institution: 'I.I.S. Benedetto Castelli',
       degree: 'Technical Degree',
       from: '2025',
-      to: '2028',
+      to: 'Current',
     },
     {
       institution: 'C.F.P. Zanardelli',
