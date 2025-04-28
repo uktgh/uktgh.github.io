@@ -70,12 +70,12 @@ const CONFIG = {
   skills: [
     'fl studio',
     'blender',
-    'c',
-    'c++',
+    'c/c++',
     'rust',
     'sql',
     'python',
     '8086 asm',
+    'cisco packet tracer'
   ],
   experiences: [
     {
@@ -152,8 +152,8 @@ const CONFIG = {
   
   themeConfig: {
     defaultTheme: 'pastel',
-    disableSwitch: true,
-    respectPrefersColorScheme: false,
+    disableSwitch: false,
+    respectPrefersColorScheme: true,
     displayAvatarRing: true,
 
     themes: [
