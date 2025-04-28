@@ -68,6 +68,8 @@ const CONFIG = {
   },
   */
   skills: [
+    'fl studio',
+    'blender',
     'c',
     'c++',
     'rust',
@@ -85,6 +87,18 @@ const CONFIG = {
     }
   ],
   educations: [
+    {
+      institution: 'Polytechnic University of Milan',
+      degree: 'Bachelor of Science in Mathematical Engineering',
+      from: '(In Plan)',
+      to: '(In Plan)',
+    },
+    {
+      institution: 'University of Brescia',
+      degree: 'Bachelor Degree in Mathematics',
+      from: '(In Plan)',
+      to: '(In Plan)',
+    },
     {
       institution: 'I.I.S. Benedetto Castelli',
       degree: 'Technical Degree',
